@@ -12,8 +12,8 @@ const Products = ({ cat, filters, sort }) => {
       try {
         const res = await axios.get(
           cat
-            ? `http://localhost:4000/api/products?category=${cat}`
-            : "http://localhost:4000/api/products"
+            ? `https://naiky-store.onrender.com/api/products?category=${cat}`
+            : "https://naiky-store.onrender.com/api/products"
         );
         setProducts(res.data);
       } catch (err) {}

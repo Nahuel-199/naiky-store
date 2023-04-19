@@ -41,7 +41,7 @@ const Header = () => {
               rel="noreferrer"
               href="https://www.instagram.com/aoe_indumentaria"
             >
-              <BsInstagram style={{color: "black"}} />
+              <BsInstagram className="insta" />
             </a>
             <BiMenuAltRight onClick={() => setOpen(!open)} style={{fontSize: "34px"}} className="menux-icon"/>
             {open && (
